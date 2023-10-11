@@ -13,8 +13,10 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 To test the app you have to make a post to this url: http://localhost:8000/api/conversation where port 8000 is the port for the lavarel serve.
-The body have to be as the following:
+The body have to be set as the following:
 {
   "user_id":1, //any number, the api will remember the conversation
   "query": "text" //your question or prompt
 }
+
+Remember that im using a provisional apikey from OpenAI, you can change it in the controller view.
